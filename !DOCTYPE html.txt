@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Business</title>
+  <title>Arslan Business</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    header { background: #007acc; color: white; padding: 20px; }
+    nav a { margin: 0 10px; color: white; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Business</h1>
-  <p>We provide quality products and services.</p>
+  <header>
+    <h1>Arslan Business</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <p>High‑quality items for your needs.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>Professional solutions tailored for you.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: yourbusiness@email.com</p>
+  </section>
 </body>
 </html>
